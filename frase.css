@@ -51,7 +51,7 @@ main {
 @keyframes myAnimation {
   0% {
     opacity: 0;
-    transform: translate(0, 0);
+    transform: translate(0, 1037px);
   }
   11% {
     opacity: 1;
@@ -62,14 +62,14 @@ main {
     transform: translate(0, 1041px);
   }
   33% {
-    transform: translate(0, 2000px);
+    transform: translate(0, 1045px);
     opacity: 0;
   }
 }
 @keyframes myAnimation2 {
   33% {
     opacity: 0;
-    transform: translate(0, 0);
+    transform: translate(0, 1037px);
   }
   44% {
     opacity: 1;
@@ -80,14 +80,14 @@ main {
     transform: translate(0, 1041px);
   }
   66% {
-    transform: translate(0, 2000px);
+    transform: translate(0, 1045px);
     opacity: 0;
   }
 }
 @keyframes myAnimation3 {
   66% {
     opacity: 0;
-    transform: translate(0, 0);
+    transform: translate(0, 1037px);
   }
   77% {
     opacity: 1;
@@ -98,7 +98,7 @@ main {
     transform: translate(0, 1041px);
   }
   99% {
-    transform: translate(0, 2000px);
+    transform: translate(0, 1045px);
     opacity: 0;
   }
 }
