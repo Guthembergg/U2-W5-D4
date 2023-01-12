@@ -55,7 +55,7 @@
   -webkit-box-shadow: 5px 13px 19px 1px rgba(0, 0, 0, 0.6);
   -moz-box-shadow: 5px 13px 19px 1px rgba(0, 0, 0, 0.6);
   transform: rotate(-6deg);
-  animation: myAnimation1 2.2s ease;
+  animation: myAnimation1 6.2s ease;
 }
 body {
   display: flex;
