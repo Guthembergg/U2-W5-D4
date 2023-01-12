@@ -63,6 +63,9 @@ body {
   margin-top: 5%;
   align-items: center;
   justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgb(181, 181, 181);
 }
 div {
   margin-right: 5%;
