@@ -10,62 +10,89 @@
 #testoAlternato {
   width: 300px;
   position: relative;
-  border: 3px solid black;
+  border: 2px solid black;
   background-color: rgb(255, 255, 255);
   margin: auto;
   margin-top: 200px;
+  padding: 10px;
 }
 .p1 {
-  animation: myAnimation 9s infinite;
-  opacity: 0;
+  animation: myAnimation 9s linear infinite;
   position: absolute;
-  left: 175px;
+  left: 185px;
+  top: -1000px;
   color: rgb(94, 94, 246);
+  opacity: 0;
 }
 .p2 {
   animation: myAnimation2 9s linear infinite;
-  opacity: 0;
+
   position: absolute;
-  left: 175px;
+  left: 185px;
+  top: -1000px;
   color: rgb(94, 94, 246);
+  opacity: 0;
 }
 .p3 {
   animation: myAnimation3 9s linear infinite;
-  opacity: 0;
+
   position: absolute;
-  left: 175px;
+  left: 185px;
+  top: -1000px;
   color: rgb(94, 94, 246);
+  opacity: 0;
 }
 @keyframes myAnimation {
   0% {
     opacity: 0;
+    transform: translate(0, 0);
   }
-  16.6% {
+  11% {
     opacity: 1;
+    transform: translate(0, 1041px);
   }
-  33.2% {
+  22% {
+    opacity: 1;
+    transform: translate(0, 1041px);
+  }
+  33% {
+    transform: translate(0, 2000px);
     opacity: 0;
   }
 }
 @keyframes myAnimation2 {
-  33.2% {
+  33% {
     opacity: 0;
+    transform: translate(0, 0);
   }
-  50% {
+  44% {
     opacity: 1;
+    transform: translate(0, 1041px);
   }
-  66.6% {
+  55% {
+    opacity: 1;
+    transform: translate(0, 1041px);
+  }
+  66% {
+    transform: translate(0, 2000px);
     opacity: 0;
   }
 }
 @keyframes myAnimation3 {
-  66.6% {
+  66% {
     opacity: 0;
+    transform: translate(0, 0);
   }
-  82.6% {
+  77% {
     opacity: 1;
+    transform: translate(0, 1041px);
   }
-  100% {
+  88% {
+    opacity: 1;
+    transform: translate(0, 1041px);
+  }
+  99% {
+    transform: translate(0, 2000px);
     opacity: 0;
   }
 }
