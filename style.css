@@ -1,0 +1,108 @@
+.post-it,
+.post-it3 {
+  height: 200px;
+  width: 250px;
+  background: rgb(244, 246, 122);
+  background: linear-gradient(
+    180deg,
+    rgba(244, 246, 122, 1) 63%,
+    rgba(180, 185, 83, 1) 100%
+  );
+  margin-bottom: 5%;
+  box-shadow: 5px 13px 19px 1px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 5px 13px 19px 1px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 5px 13px 19px 1px rgba(0, 0, 0, 0.6);
+  transform: rotate(-20deg);
+  animation: myAnimation3 2.5s ease;
+}
+.post-it2,
+.post-it5 {
+  height: 200px;
+  width: 250px;
+  background: rgb(144, 246, 122);
+  background: linear-gradient(
+    180deg,
+    rgba(144, 246, 122, 1) 63%,
+    rgba(90, 185, 83, 1) 100%
+  );
+  margin-bottom: 5%;
+  box-shadow: 5px 13px 19px 1px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 5px 13px 19px 1px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 5px 13px 19px 1px rgba(0, 0, 0, 0.6);
+  transform: rotate(10deg);
+  animation: myAnimation2 3s ease;
+}
+.post-it2:hover,
+.post-it5:hover,
+.post-it:hover,
+.post-it3:hover,
+.post-it4:hover,
+.post-it6:hover {
+  transform: rotate(0deg) scale(1.2);
+}
+.post-it4,
+.post-it6 {
+  height: 200px;
+  width: 250px;
+  background: rgb(180, 122, 246);
+  background: linear-gradient(
+    180deg,
+    rgba(180, 122, 246, 1) 63%,
+    rgba(129, 83, 185, 1) 100%
+  );
+  margin-bottom: 5%;
+  box-shadow: 5px 13px 19px 1px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 5px 13px 19px 1px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 5px 13px 19px 1px rgba(0, 0, 0, 0.6);
+  transform: rotate(-6deg);
+  animation: myAnimation1 2.2s ease;
+}
+body {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  align-items: center;
+  justify-content: center;
+}
+div {
+  margin-right: 5%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h3 {
+  margin-bottom: -10px;
+  font-size: 20px;
+  font-weight: 100;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+@keyframes myAnimation1 {
+  0% {
+    transform: translate(-620px) rotate(-6deg);
+  }
+  33% {
+    transform: translate(0) rotate(-6deg);
+  }
+}
+
+@keyframes myAnimation2 {
+  0% {
+    transform: translate(-620px) rotate(10deg);
+  }
+  66% {
+    transform: translate(0) rotate(10deg);
+  }
+}
+@keyframes myAnimation3 {
+  0% {
+    transform: translate(-620px) rotate(-20deg);
+  }
+  100% {
+    transform: translate(0) rotate(-20deg);
+  }
+}
